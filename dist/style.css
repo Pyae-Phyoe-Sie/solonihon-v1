@@ -1,0 +1,151 @@
+* {
+    color: #fff;
+}
+body {
+    background-color: #423162;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: revert;
+    color: #fff;
+}
+
+button {
+    padding: 8px 10px;
+    min-width: 160px;
+    max-width: 160px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    margin: 0px 10px;
+}
+
+button.next {
+    background: #4caf50;
+    border: 1px solid #4caf50;
+}
+
+button.skip,
+button.submit {
+    background: #ff5722;
+    border: 1px solid #ff5722;
+}
+
+button.back {
+    color: #111;
+    border: 1px solid #fff;
+}
+
+.container {
+    height: auto;
+    margin: 50px auto 20px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.flex-div {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-left {
+    line-height: 34px;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+.playground {
+    display: none;
+}
+
+.prepare>div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.prepare input[type=number] {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #111;
+    margin-top: 7px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.count div {
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav select {
+    color: #111;
+    outline: none;
+    padding: 4px 10px;
+}
+
+.level-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.level-container div {
+    margin: 0 5px 0 0;
+}
+
+/* common css (START) */
+.m-0 {
+    margin: 0;
+}
+.mt-1 {
+    margin-top: 1rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mt-3 {
+    margin-top: 3rem;
+}
+.mt-4 {
+    margin-top: 4rem;
+}
+.mt-5 {
+    margin-top: 5rem;
+}
+/* common css (END) */

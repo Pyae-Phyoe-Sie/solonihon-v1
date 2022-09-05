@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Solo Nihon</title>
+    <link rel="stylesheet" href="style.css?ver=0004">
+    <!-- <script type='text/javascript' src='//understandextremityshipping.com/bb/47/3b/bb473b61903e11e261f088fd6ea53aa4.js'></script> -->
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <select class="localizationSwitch">
+            <option value="en" selected>English</option>
+            <option value="jp">日本</option>
+            <!-- <option value="mm">မြန်မာ</option> -->
+          </select>
+        </li>
+      </ul>
+    </nav>
+    <div class="container flex-div flex-column flex-center">
+      <div class="prepare">
+        <div class="error">
+  
+        </div>
+        <div class="info">
+          <p class="m-0">
+            <i></i>
+          </p>
+        </div>
+        <div>
+          <div class="level-container">
+            <div><input type="checkbox" class="level" value="5" /><span>N5</span></div>
+            <div><input type="checkbox" class="level" value="4" /><span>N4</span></div>
+            <!-- <input type="checkbox" class="level" value="3" /> N3
+            <input type="checkbox" class="level" value="2" /> N2
+            <input type="checkbox" class="level" value="1" /> N1 -->
+          </div>
+          <div>
+            <div>
+              <label class="from-label"></label>
+            </div>
+            <input type="number" id="from"/>
+          </div>
+          <div class="mt-1">
+            <div>
+              <label class="to-label"></label>
+            </div>
+            <input type="number" id="to"/>
+          </div>
+        </div>
+  
+        <div class="mt-2 flex-center">
+          <button type="button" class="submit"></button>
+        </div>
+      </div>
+      <div class="playground">
+        <div class="count">
+          <div class="text-left"><span class="label"></span><span class="left"></span></div>
+        </div>
+
+        <div class="kanji">
+          <h1></h1>
+          <p class="text-center"></p>
+          <input type="hidden" id="key" value="" />
+        </div>
+
+        <div class="flex-div flex-row flex-center mt-3">
+          <button type="button" class="skip"></button>
+          <button type="button" class="next"></button>
+        </div>
+
+        <div class="flex-div flex-row flex-center mt-5">
+          <button type="button" class="back"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="vendor/jquery.js"></script>
+    <script src="vendor/jquery-mobile.js"></script>
+
+    <script src="assets/bundle.js?ver=0004"></script>
+    
+    <!-- <script type="text/javascript">
+      atOptions = {
+        'key' : '0838d9a2659f1947ec430e852125288e',
+        'format' : 'iframe',
+        'height' : 60,
+        'width' : 468,
+        'params' : {}
+      };
+      document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://understandextremityshipping.com/0838d9a2659f1947ec430e852125288e/invoke.js"></scr' + 'ipt>');
+    </script> -->
+
+  </body>
+</html>
